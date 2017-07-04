@@ -22,10 +22,11 @@ Just start xinputinfo.exe from the command line. No command line arguments neede
 Compiling
 ---------
 
-1. Install MinGW64 and MSYS2
+1. Install MinGW64 and MSYS2 or Cygwin with MinGW compiler set
 2. Fetch the xinputinfo.c and Makefile
-3. Call make
-4. Done
+3. Check the $(CC) variable in the makefile (*gcc* under MinGW, *i686-w64-mingw32-gcc* or *x86_64-w64-mingw32-gcc* under Cygwin)
+4. Call make
+5. Done
 
 License
 -------
